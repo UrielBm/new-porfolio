@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Mi portafolio web, en el que podrás ver mi experiencia laboral y algunos proyectos, te permitirá conocerme un poco mejor.Es un placer que visites mi sitio web. Por Uriel Benítez Medina"
+    />
+    <meta
+      name="keywords"
+      content="Desarrollo web Pachuca,Desarrollador Front-end,Desarrollador Uriel Benítez,Desarrollo Pachuca,React Pachuca,Desarrollador México"
+    />
+    <meta name="author" content="Uriel Benítez Medina" />
+    <!-- Android -->
+    <meta name="theme-color" content="#f6f5f5" />
+    <!-- IOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="assets/icons/icon-256x256.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/icons/icon-128x128.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/icon-256x256.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="167x167"
+      href="assets/icons/icon-128x128.png"
+    />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Web Ubm" />
+    <!--Og tags-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@CouthUriel" />
+    <meta name="twitter:creator" content="@CouthUriel" />
+    <meta property="og:url" content="https://urielbm.dev" />
+    <meta property="og:title" content="Mi sitio Web, Uriel Benítez Medina" />
+    <meta
+      property="og:description"
+      content="Mi portafolio web, en el que podrás ver mi experiencia laboral y algunos proyectos, te permitirá conocerme un poco mejor.Es un placer que visites mi sitio web. Por Uriel Benítez Medina"
+    />
+    <meta property="og:image" content="./assets/imgs/avatar.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" type="image/x-icon" href="./assets/imgs/favico.ico" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Uriel Benítez Medina Desarrollador Front-end</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#experiencia" class="nav-link">Experiencia</a>
+        <a href="#proyectos" class="nav-link">Proyectos</a>
+        <a href="#sobre-mi" class="nav-link">Sobre de mí</a>
+        <a
+          href="https://wa.me/+527712003337?text=Hola%20Uriel%20un%20gusto%20saludarte%20vengo%20de20%tu20%sitio20%web."
+          >Contacto</a
+        >
+        <a href="./index-en.html">EN</a>
+      </nav>
+    </header>
+    <section class="wrapper">
+      <div class="hero">
+        <div class="wrapper-avatar">
+          <picture>
+            <source srcset="./assets/imgs/avatar.avif" type="image/avif" />
+            <source srcset="./assets/imgs/avatar.webp" type="image/webp" />
+            <img
+              src="./assets/imgs/avatar.jpg"
+              class="avatar"
+              loading="eager"
+              alt="Uriel Benítez Medina"
+            />
+          </picture>
+          <a
+            class="linkedin"
+            href="https://mx.linkedin.com/in/uriel-ben%C3%ADtez-medina"
+            target="_blank"
+            >Perfil de LinkedIn
+          </a>
+        </div>
+        <div class="wrapper-description">
+          <h1 class="name">Hola, soy Uriel Benítez</h1>
+          <p class="description">
+            +3 años de experiencia.
+            <strong>Ingeniero en sistemas y desarrollador de software</strong>
+            en México. Especializado en desarrollo front-end.
+          </p>
+        </div>
+        <div class="wrapper-networks">
+          <a
+            class="link-button network"
+            href="mailto:urielbenitez96@hotmail.com?subject=Interes%20Laboral"
+            target="_blank"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#fffff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"
+              />
+              <path d="M3 7l9 6l9 -6" />
+            </svg>
+            Contáctame</a
+          >
+          <a
+            class="link-button network"
+            href="https://github.com/UrielBm"
+            target="_blank"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler"
+              width="25"
+              height="25"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+              />
+            </svg>
+            Github</a
+          >
+        </div>
+      </div>
+    </section>
+    <main class="wrapper" id="experiencia">
+      <div class="wrapper-subtitle">
+        <img
+          src="./assets/imgs/svgs/portfolio.svg"
+          class="icon-tabler icon-subtitle"
+          loading="eager"
+          alt="respresentación de portafolio"
+        />
+        <h1 class="subtitle">Experiencia laboral.</h1>
+      </div>
+      <div class="wrapper-exp">
+        <article class="job">
+          <span class="dot"></span>
+          <div>
+            <h3>Analista de sistemas.</h3>
+            <div class="wrapper-job">
+              <strong>Banco Inbursa</strong>
+              <img
+                src="./assets/imgs/svgs/bank.svg"
+                class="icon icon-tabler icon-tabler-job"
+                loading="eager"
+                alt="banco inbursa"
+              />
+            </div>
+            <div class="wrapper-date">
+              <p class="date-before">Marzo 2023</p>
+              <p>Actualmente...</p>
+            </div>
+          </div>
+          <div>
+            <p>
+              Mejorar la accesibilidad, la navegación y el diseño de la
+              aplicación web para incentivar su uso.
+            </p>
+            <ul class="activity-list">
+              <li>
+                Mejorar la accesibilidad para que sea compatible con diferentes
+                dispositivos y navegadores.
+              </li>
+              <li>
+                Mejorar la navegación del sitio web para que sea más fácil e
+                intuitiva para los usuarios.
+              </li>
+              <li>
+                Incentivar el uso de la aplicación web con un diseño nuevo y
+                atractivo.
+              </li>
+            </ul>
+            <p>
+              Agilizar el desarrollo de aplicaciones nativas y homologar las
+              vistas que comparten la aplicación web y móvil.
+            </p>
+            <ul class="activity-list">
+              <li>
+                Agilizar el desarrollo de aplicaciones nativas mediante la
+                reutilización de código y componentes.
+              </li>
+              <li>
+                Homologar las vistas que comparten la aplicación web y móvil
+                para ofrecer una experiencia de usuario consistente.
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <span class="dot"></span>
+          <div>
+            <h3>Desarrollador Front-end</h3>
+            <div class="wrapper-job">
+              <strong>Agencia digital 14 Días</strong>
+              <img
+                src="./assets/imgs/svgs/idea.svg"
+                class="icon icon-tabler icon-tabler-job"
+                loading="lazy"
+                alt="idea"
+              />
+            </div>
+            <div class="wrapper-date">
+              <p>Junio 2021</p>
+              <p>Febrero 2023</p>
+            </div>
+          </div>
+          <div>
+            <p>Desarrollo de prototipos para campañas publicitarias</p>
+            <ul class="activity-list">
+              <li>Generar prototipos interactivos para diferentes campañas.</li>
+              <li>
+                Incrementar la participación de las campañas publicitarias.
+              </li>
+              <li>
+                Incrementar las ventas de los productos de acuerdo a la campaña.
+              </li>
+              <li>Implementar ideas creativas a nivel código.</li>
+              <li>Creación de juegos interactivos con registro de puntajes.</li>
+            </ul>
+            <p>Creación de aplicaciones web</p>
+            <ul class="activity-list">
+              <li>Generar nuevas ideas para las posibles campañas futuras.</li>
+              <li>
+                Desarrollar aplicaciones para agilizar el trabajo de diferentes
+                áreas.
+              </li>
+              <li>
+                Implementar scripts para automatizar diferentes tareas del área
+                de tecnología.
+              </li>
+            </ul>
+            <p>Mantenimiento y creación de sitios web</p>
+            <ul class="activity-list">
+              <li>Mantenimiento de los diferentes sitios web de clientes.</li>
+              <li>
+                Creación de nuevas características para diferentes marcas.
+              </li>
+              <li>
+                Desarrollo de páginas nuevas con el objetivo de refrescar la
+                marca.
+              </li>
+              <li>Optimización de recursos digitales.</li>
+              <li>Mantenimiento de servidores.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <span class="dot"></span>
+          <div>
+            <h3>Desarrollador Front-end Jr.</h3>
+            <div class="wrapper-job">
+              <strong>Consultora Octopy</strong>
+              <img
+                src="./assets/imgs/svgs/code.svg"
+                class="icon icon-tabler icon-tabler-job"
+                loading="lazy"
+                alt="code logo"
+              />
+            </div>
+            <div class="wrapper-date">
+              <p>Diciembre 2020</p>
+              <p>Junio 2021</p>
+            </div>
+          </div>
+          <div>
+            <p>Desarrollo de aplicación e-commerce para la marca Nestle</p>
+            <ul class="activity-list">
+              <li>Implementación de nuevas características.</li>
+              <li>
+                Uso de librerías externas para conexión con impresora de
+                tickets.
+              </li>
+              <li>Optimización de la carga de imágenes. <b>25% + rápido</b></li>
+              <li>
+                Conexión del front-end con el back-end mediante endpoints.
+              </li>
+              <li>
+                Comunicación con diferentes áreas del equipo, como QA y Backend.
+              </li>
+              <li>Implementación de nuevos diseños.</li>
+              <li>Mantenimiento y corrección de bugs.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <span class="dot"></span>
+          <div>
+            <h3>Desarrollador de Software</h3>
+            <div class="wrapper-job">
+              <strong>ADL Networks</strong>
+              <img
+                src="./assets/imgs/svgs/code.svg"
+                class="icon icon-tabler icon-tabler-job"
+                loading="lazy"
+                alt="code logo"
+              />
+            </div>
+            <div class="wrapper-date">
+              <p>Marzo 2020</p>
+              <p>Diciembre 2020</p>
+            </div>
+          </div>
+          <div>
+            <p>Mantenimiento y actualización de diferentes sitios web.</p>
+            <ul class="activity-list">
+              <li>Creación de nuevos requerimientos para proyectos.</li>
+              <li>Mantenimiento y actualización de sitios web.</li>
+              <li>Aprendizaje de PHP <b>Laravel</b>.</li>
+            </ul>
+            <p>Creación de recursos y optimización.</p>
+            <ul class="activity-list">
+              <li>Mantenimiento y actualización de imágenes y recursos.</li>
+              <li>
+                Creación de SVG, vídeos o imágenes necesarios para proyectos.
+              </li>
+              <li>
+                Optimización de imágenes por formatos de nueva generación
+                <b>(25% - 35%)</b>.
+              </li>
+            </ul>
+            <p>Creación y mantenimiento de bases de datos relacionales.</p>
+            <ul class="activity-list">
+              <li>
+                Actualización de bases de datos según las características del
+                proyecto.
+              </li>
+              <li>Conexiones a bases de datos en servidores externos.</li>
+              <li>Creación de respaldos de bases de datos.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <span class="dot"></span>
+          <div>
+            <h3>Becario en programación</h3>
+            <div class="wrapper-job">
+              <strong>CEMREH de Hidalgo</strong>
+              <img
+                src="./assets/imgs/svgs/institute.svg"
+                class="icon icon-tabler icon-tabler-job"
+                loading="lazy"
+                alt="instituto de mejora regulatoria del estado de hidalgo"
+              />
+            </div>
+            <div class="wrapper-date">
+              <p>Diciembre 2019</p>
+              <p>Marzo 2020</p>
+            </div>
+          </div>
+          <div>
+            <p>
+              Creación y mantenimiento del sitio web de la institución estatal
+            </p>
+            <ul class="activity-list">
+              <li>Mantenimiento del sitio web oficial.</li>
+              <li>Creación de diagramas de flujo.</li>
+            </ul>
+            <p>Mantenimiento de bases de datos</p>
+            <ul class="activity-list">
+              <li>Mantenimiento de bases de datos en Excel.</li>
+              <li>
+                Cambio de algunas bases de datos a bases de datos relacionales.
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </main>
+    <section class="wrapper wrapper-proyectos" id="proyectos">
+      <div class="wrapper-subtitle">
+        <img
+          src="./assets/imgs/svgs/code.svg"
+          class="icon-tabler icon-subtitle"
+          loading="lazy"
+          alt="ilustración de proyectos"
+        />
+        <h2 class="subtitle">Proyectos</h2>
+      </div>
+      <article class="proyecto">
+        <div class="wrapper-img">
+          <picture>
+            <source
+              srcset="./assets/imgs/proyecto_1_phone.avif"
+              type="image/avif"
+              media="(max-width: 767px)"
+            />
+            <source
+              srcset="./assets/imgs/proyecto_1_phone.webp"
+              type="image/avif"
+              media="(max-width: 767px)"
+            />
+            <source
+              srcset="./assets/imgs/proyecto_1_tablet.avif"
+              type="image/avif"
+              media="(max-width:1200px)"
+            />
+            <source
+              srcset="./assets/imgs/proyecto_1_tablet.webp"
+              type="image/webp"
+              media="(max-width:1200px)"
+            />
+            <source srcset="./assets/imgs/proyecto_1.avif" type="image/avif" />
+            <source srcset="./assets/imgs/proyecto_1.webp" type="image/webp" />
+            <img
+              src="./assets/imgs/proyecto_1.png"
+              class="img-proyecto"
+              loading="lazy"
+              alt="Representación gráfica del proyecto encuestados."
+            />
+          </picture>
+        </div>
+        <div class="wrapper-info-proyect">
+          <h3>Encuestados - Juego de preguntas.</h3>
+          <ul class="list-tech">
+            <li class="mongo">
+              <img
+                src="./assets/imgs/svgs/mongodb.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="mongo"
+              />
+              <span>MongoDB</span>
+            </li>
+            <li class="express">
+              <img
+                src="./assets/imgs/svgs/express.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="express"
+              />
+              <span> Express </span>
+            </li>
+            <li class="react">
+              <img
+                src="./assets/imgs/svgs/react.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="react"
+              />
+              <span> React </span>
+            </li>
+            <li class="node">
+              <img
+                src="./assets/imgs/svgs/node.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="node"
+              />
+              <span> Node </span>
+            </li>
+          </ul>
+          <p class="descr">
+            Encuestados es un juego tipo <b>"Quiz"</b> que te permite poner a
+            prueba tus conocimientos en una amplia variedad de categorías. Cada
+            categoría contiene diversas preguntas cuidadosamente diseñadas para
+            desafiar tu mente.
+          </p>
+          <div class="wrapper-links">
+            <a
+              class="link-button"
+              href="https://github.com/UrielBm/quizgame"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler"
+                width="25"
+                height="25"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                />
+              </svg>
+              Código</a
+            >
+            <a
+              class="link-button"
+              href="https://quizgameuri.vercel.app/"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler"
+                width="25"
+                height="25"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M9 15l6 -6" />
+                <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                <path
+                  d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463"
+                />
+              </svg>
+              Demo</a
+            >
+          </div>
+        </div>
+      </article>
+      <article class="proyecto">
+        <div class="wrapper-img">
+          <picture>
+            <source
+              srcset="./assets/imgs/proyecto_2_phone.avif"
+              type="image/avif"
+              media="(max-width: 767px)"
+            />
+            <source
+              srcset="./assets/imgs/proyecto_2_phone.webp"
+              type="image/avif"
+              media="(max-width: 767px)"
+            />
+            <source
+              srcset="./assets/imgs/proyecto_2_tablet.avif"
+              type="image/webp"
+              media="(max-width: 1200px)"
+            />
+            <source
+              srcset="./assets/imgs/proyecto_2_tablet.webp"
+              type="image/webp"
+              media="(max-width: 1200px)"
+            />
+            <source srcset="./assets/imgs/proyecto_2.avif" type="image/avif" />
+            <source srcset="./assets/imgs/proyecto_2.webp" type="image/webp" />
+            <img
+              src="./assets/imgs/proyecto_2.png"
+              class="img-proyecto"
+              loading="lazy"
+              alt="Representación gráfica del proyecto Space Invaders con Sockets"
+            />
+          </picture>
+        </div>
+        <div class="wrapper-info-proyect">
+          <h3>Juego Space Invaders con SocketIO.</h3>
+          <ul class="list-tech">
+            <li class="html-bg">
+              <img
+                src="./assets/imgs/svgs/html.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="html"
+              />
+              <span> HTML </span>
+            </li>
+            <li class="css-bg">
+              <img
+                src="./assets/imgs/svgs/css.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="css"
+              />
+              <span> CSS </span>
+            </li>
+            <li class="javscript-bg">
+              <img
+                src="./assets/imgs/svgs/js.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="javascript"
+              />
+              JS
+            </li>
+            <li class="express">
+              <img
+                src="./assets/imgs/svgs/express.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="express"
+              />
+              <span> Express </span>
+            </li>
+            <li class="mongo">
+              <img
+                src="./assets/imgs/svgs/mongodb.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="mongo"
+              />
+              <span>MongoDB</span>
+            </li>
+            <li class="socket">
+              <img
+                src="./assets/imgs/svgs/socket.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="socket"
+              />
+              <span> Socket IO </span>
+            </li>
+          </ul>
+          <p>
+            Space Invaders es un emocionante juego programado en Javascript que
+            te pone en la piel de un defensor espacial. Tu misión es simple:
+            "eliminar a los invasores espaciales y proteger la Tierra". Conecta
+            tu teléfono al juego mediante Sockets simplemente escaneando un
+            código QR. Controla tu nave espacial con tu dispositivo móvil y
+            desata una lluvia de fuego sobre tus enemigos.
+          </p>
+          <div class="wrapper-links">
+            <a
+              class="link-button"
+              href="https://github.com/UrielBm/space-invaders-front"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler"
+                width="25"
+                height="25"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                />
+              </svg>
+              Código</a
+            >
+            <a
+              class="link-button"
+              href="https://space-invaders-front.vercel.app/"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler"
+                width="25"
+                height="25"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M9 15l6 -6" />
+                <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                <path
+                  d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463"
+                />
+              </svg>
+              Demo</a
+            >
+          </div>
+        </div>
+      </article>
+      <article class="proyecto">
+        <div class="wrapper-img">
+          <picture>
+            <source
+              srcset="./assets/imgs/proyecto_3_phone.avif"
+              type="image/avif"
+              media="(max-width: 767px)"
+            />
+            <source
+              srcset="./assets/imgs/proyecto_3_phone.webp"
+              type="image/avif"
+              media="(max-width: 767px)"
+            />
+            <source
+              srcset="./assets/imgs/proyecto_3_tablet.avif"
+              type="image/avif"
+              media="(max-width: 1200px)"
+            />
+            <source
+              srcset="./assets/imgs/proyecto_3_tablet.webp"
+              type="image/webp"
+              media="(max-width: 1200px)"
+            />
+            <source srcset="assets/imgs/proyecto_3.avif" type="image/avif" />
+            <source srcset="assets/imgs/proyecto_3.webp" type="image/webp" />
+            <img
+              src="./assets/imgs/proyecto_3.png"
+              class="img-proyecto"
+              loading="lazy"
+              alt="Representación gráfica del proyecto de encriptación de vocales."
+            />
+          </picture>
+        </div>
+        <div class="wrapper-info-proyect">
+          <h3>Alura-oracle Encriptador</h3>
+          <ul class="list-tech">
+            <li class="html-bg">
+              <img
+                src="./assets/imgs/svgs/html.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="html"
+              />
+              <span> HTML </span>
+            </li>
+            <li class="css-bg">
+              <img
+                src="./assets/imgs/svgs/css.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="css"
+              />
+              <span> CSS </span>
+            </li>
+            <li class="javscript-bg">
+              <img
+                src="./assets/imgs/svgs/js.svg"
+                class="tech-ico"
+                loading="lazy"
+                alt="javascript"
+              />
+              <span> JS </span>
+            </li>
+          </ul>
+          <p>
+            El ejercicio de encriptador propuesto por Arula y Oracle te permite
+            proteger tus mensajes de miradas indiscretas. Este método encripta
+            las vocales de tus textos utilizando llaves preestablecidas, lo que
+            lo convierte en una herramienta ideal para mantener tu privacidad.
+          </p>
+          <div class="wrapper-links">
+            <a
+              class="link-button"
+              href="https://github.com/UrielBm/encriptador-oracle"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler"
+                width="25"
+                height="25"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                />
+              </svg>
+              Código</a
+            >
+            <a
+              class="link-button"
+              href="https://urielbm.github.io/encriptador-oracle/"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler"
+                width="25"
+                height="25"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M9 15l6 -6" />
+                <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                <path
+                  d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463"
+                />
+              </svg>
+              Demo</a
+            >
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="wrapper wrapper-about-me" id="sobre-mi">
+      <div class="wrapper-subtitle">
+        <img
+          src="./assets/imgs/svgs/avatar.svg"
+          class="icon-tabler icon-subtitle"
+          loading="lazy"
+          alt="ilustración representativa de un avatar"
+        />
+        <h2 class="subtitle">Sobre mi.</h2>
+      </div>
+      <div class="wrapper-about-me-info">
+        <div class="wrapper-img">
+          <picture>
+            <source srcset="./assets/imgs/foto.avif" type="image/avif" />
+            <source srcset="./assets/imgs/foto.webp" type="image/webp" />
+            <img
+              src="./assets/imgs/foto.jpg"
+              class="aboutMe-img"
+              loading="lazy"
+              alt="Uriel Benítez Medina, un día en la nieve."
+            />
+          </picture>
+        </div>
+        <div class="description">
+          <p>
+            Hola soy Uriel Benítez Medina, ingeniero en sistemas titulado por el
+            Tecnológico de México. Actualmente trabajo en el área de
+            <b> Banca </b>
+            para Grupo Inbursa como analista de sistemas. Tengo experiencia en
+            diferentes áreas trabajando para<b> agencias digitales </b> y en<b>
+              desarrollo de software.
+            </b>
+          </p>
+          <p>
+            Mi logro más reciente en programación fue ganar el premio a "Mejor
+            proyecto" en el Bootcamp de React 2023 de Código Facilito.
+          </p>
+          <p>
+            En este momento, realizo cursos en áreas como <b> IA </b>,
+            <b> DevOps </b>y<b> Microservicios </b> para seguir desarrollándome
+            profesionalmente.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="wrapper footer">
+      <div class="wrapper-button">
+        <button disabled id="like-button">
+          <span id="text-button"> ¡Dale me gusta a mi portafolio!</span>
+          <div class="wrapper-likes">
+            #<span class="likes" id="likes"> 100 </span>
+            <img
+              src="./assets/imgs/svgs/heart.svg"
+              class="heart"
+              loading="lazy"
+              alt="corazón"
+            />
+          </div>
+        </button>
+      </div>
+      <p>Plantilla inspirda de Midudev</p>
+    </footer>
+  </body>
+  <!-- <script src="./js/app.js"></script> -->
+  <script src="./js/index.js"></script>
+</html>
