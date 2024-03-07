@@ -27,7 +27,7 @@
   --node: #0b3d1e;
   --html-bg: #bb2f0c;
   --css-bg: #065ba0;
-  --javscript-bg: #8a7e33;
+  --javscript-bg: #fddb00;
   --socket: #6e6c6c;
   --sql: #202a63;
   --sass: #582538;
@@ -197,6 +197,9 @@ img {
 }
 .javscript-bg {
   background-color: var(--javscript-bg);
+  span {
+    color: var(--black);
+  }
 }
 .socket {
   background-color: var(--socket);
