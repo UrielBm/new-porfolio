@@ -388,7 +388,7 @@ main {
       overflow: hidden;
       transition: all 0.5s ease;
       filter: drop-shadow(0 3mm 4mm var(--secondary));
-      aspect-ratio: 3/2;
+      aspect-ratio: 1.33;
       &:hover {
         transform: scale(1.1);
       }
