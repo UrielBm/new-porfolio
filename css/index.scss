@@ -4,12 +4,14 @@
   src: url("./../assets/fonts/Bebas_Neue/BebasNeue-Regular.woff2")
       format("woff2"),
     url("./../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 @font-face {
   font-family: "Monstserrat";
   src: url("./../assets/fonts/Montserrat/Montserrat.woff2");
   src: url("./../assets/fonts/Montserrat/Montserrat.woff2") format("woff2"),
     url("./../assets/fonts/Montserrat/Montserrat.ttf") format("truetype");
+  font-display: swap;
 }
 :root {
   --primary: #234d96;
