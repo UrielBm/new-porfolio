@@ -117,8 +117,11 @@ img {
   }
 }
 .activa {
-  color: var(--fourth);
+  color: var(--third);
   font-weight: bold;
+  @media (prefers-color-scheme: dark) {
+    color: var(--fourth);
+  }
 }
 .linkedin:after,
 .linkedin:before {
