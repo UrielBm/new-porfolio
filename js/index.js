@@ -3,7 +3,7 @@ const arrayLinks = document.querySelectorAll(".nav-link");
 const Button = document.querySelector("#like-button");
 const pageLikes = document.querySelector("#likes");
 const textButton = document.querySelector("#text-button");
-const urlApi = "http://localhost:3000";
+const urlApi = "https://apiportfolio-ubm-dev-production.up.railway.app/";
 //funciones
 window.addEventListener("load", async (e) => {
   const likes = await handleGetRequestLikes();
